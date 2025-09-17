@@ -4,9 +4,12 @@
 PatchBot is a web scraper bot made in Python that sends updates through Discord on an hourly timer.It scrapes Steam's API for the games Marvel Rivals, Overwatch 2 and Guilty Gear Strive in order to find the titles for the most recent patch notes. Once PatchBot finds a new patch note it will store it in a JSON file and send the corresponding link for the game that the new patch note relates to. If PatchBot finds a patch note it already has it'll throw it away and go back to waiting so that Discord isn't spammed with messages every hour.
 
 
-<img width="447" height="350" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/bdd268af-3d69-4e4f-8342-8dfc94786053" />
-<img width="434" height="354" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/0615c1e8-7e88-4977-a4bd-57bb029a825c" />
-<img width="459" height="357" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/cbd7286f-72b0-4f3a-a860-0f0fc9c5fa0d" />
+<img width="459" height="357" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/80375bed-3bb3-43df-a81d-fb79530923fb" />
+<img width="434" height="354" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/9588f277-14ae-4eef-92bf-4ce16228a82e" />
+<img width="447" height="350" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/2e648b06-b03c-4900-9518-bd0f0e5934e1" />
+
+
+
 
 ## Requirements
 
