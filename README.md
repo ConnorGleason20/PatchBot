@@ -16,7 +16,12 @@ PatchBot is a web scraper bot made in Python that sends updates through Discord 
 
 PatchBot was made in Pycharm and all of the requirements will be in a seperate `.txt` file.
 
-### Extra Info
+### How to Run PatchBot
+
+
+I run the code through PyCharm and using my Discord Developer link to add it to my server. If you'd like to have this bot on your own server you'll have to go to the Discord Developer portal and make a new bot and get it's id then you'll have to make a `.env` file containing your bot id, server id, channel id and the links to Steam's api for any game you wish to get the patch notes for. For the Steam api link you'll use http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=''gameID''/&count=1&format=json and you can find the game id number by checking Steam's store page and once you click on the game you want to get notifications for the number is at the end of the URL.
+
+#### Extra Info
 
 
 PatchBot was made as a capstone project for my schooling and is my first solo coding adventure. PatchBot was made for a Discord server that I share with my friends so it most likely won't be compatable with others without some tweaking. I do not have anywhere to host the bot so it only runs when I have my computer on but I am planning to find some way to host it and continue updating it even once my schooling is complete.Below are some of my referances I used to help me learn how to make a web scraper and Discord bot.
