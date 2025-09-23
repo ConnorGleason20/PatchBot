@@ -1,7 +1,7 @@
 # PatchBot
 
 
-PatchBot is a web scraper bot made in Python that sends updates through Discord on an hourly timer.It scrapes Steam's API for the games Marvel Rivals, Overwatch 2 and Guilty Gear Strive in order to find the titles for the most recent patch notes. Once PatchBot finds a new patch note it will store it in a JSON file and send the corresponding link for the game that the new patch note relates to. If PatchBot finds a patch note it already has it'll throw it away and go back to waiting so that Discord isn't spammed with messages every hour.
+PatchBot is a web scraper bot made in Python that sends updates through Discord on an hourly timer. It scrapes Steam's API for the games Marvel Rivals, Overwatch 2 and Guilty Gear Strive in order to find the titles for the most recent patch notes. Once PatchBot finds a new patch note it will store it in a JSON file and send the corresponding link for the game that the new patch note relates to. If PatchBot finds a patch note it already has it'll throw it away and go back to waiting so that Discord isn't spammed with messages every hour.
 
 
 <img width="459" height="357" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/80375bed-3bb3-43df-a81d-fb79530923fb" />
@@ -14,7 +14,7 @@ PatchBot is a web scraper bot made in Python that sends updates through Discord 
 ## Requirements
 
 
-PatchBot was made in Pycharm and all of the requirements will be in a seperate `.txt` file.
+PatchBot was made in Pycharm and all of the requirements will be in a separate `.txt` file.
 
 ### How to Run PatchBot
 
